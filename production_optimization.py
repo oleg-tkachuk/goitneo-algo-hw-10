@@ -24,6 +24,6 @@ lemonade_qty = lemonade.varValue
 fruit_juice_qty = fruit_juice.varValue
 total_products = lemonade_qty + fruit_juice_qty
 
-print(f"Homework 10 - Task 1 | The quantity of lemonade: {lemonade_qty}") 
+print(f"Homework 10 - Task 1 | The quantity of lemonade: {lemonade_qty}")
 print(f"Homework 10 - Task 1 | The quantity of fruit juice: {fruit_juice_qty}")
 print(f"Homework 10 - Task 1 | Total products: {total_products}")
