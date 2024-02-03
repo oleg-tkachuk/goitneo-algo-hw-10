@@ -59,11 +59,12 @@ def main():
     print(f"Homework 10 - Task 2 | Function: f(x) = (x^2)/2 + (x^3)/3 + x^4 - sqrt(x^5)")
     print(f"Homework 10 - Task 2 | Result: {result}")
 
-    test_result, _ = check_calc_def_integral(f, a, b)
+    test_result, error = check_calc_def_integral(f, a, b)
 
     print(f"Homework 10 - Task 2 | Checking the calculation of a defined integral using the library scipy.integrate.quad")
     print(f"Homework 10 - Task 2 | Function: f(x) = (x^2)/2 + (x^3)/3 + x^4 - sqrt(x^5)")
     print(f"Homework 10 - Task 2 | Test result: {test_result}")
+    print(f"Homework 10 - Task 2 | Estimation of the absolute error: {error}")
 
     return result, test_result
 
