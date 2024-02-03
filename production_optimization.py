@@ -5,7 +5,7 @@ lemonade = plp.LpVariable("Lemonade", 0, None, plp.LpInteger)
 fruit_juice = plp.LpVariable("Fruit juice", 0, None, plp.LpInteger)
 
 # Create a maximization model
-model = plp.LpProblem("Maximizing beverage production", plp.LpMaximize)
+model = plp.LpProblem("Maximizing_beverage_production", plp.LpMaximize)
 
 # Add a goal function: maximize the total number of products
 model += lemonade + fruit_juice
