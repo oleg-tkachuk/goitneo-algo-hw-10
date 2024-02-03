@@ -37,12 +37,13 @@ def monte_carlo_method(func, a, b, N=10000):
 
     return integral_value
 
-
+# Test function
 def check_calc_def_integral(func, a, b):
     result, error = spi.quad(func, a, b)
     return result, error
 
 
+# Main function
 def main():
     # Let's define the function whose integral we want to calculate
     # As an example, let's take f(x) = (x^2)/2 + (x^3)/3 + x^4 - sqrt(x^5)
